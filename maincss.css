@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root {
+   /* --font-family: "Brygada 1918", serif; */
+   --font-family: "Arial", serif;
+}
+
+/* blocker */
+.pop-transformer-form.pop-vertical-form,
+.recomendCont,
+td[bgcolor="#00349a"],
+td[bgcolor="#ffffff"]:first-child,
+tr[valign="middle"][height="24"],
+tr[valign="middle"][height="3"],
+a[href="http://rateli.ru/news/item/f00/s03/n0000379/index.shtml"],
+a[href="../../../../../../top.mail.ru/Rating/Computers-Hardware/Today/Visitors/2c8fc.html?from=2561637"],
+a[href="../../../../../../www.liveinternet.ru/index1807.html"] {
+   /* tr[valign="top"] > td[bgcolor="#ffffff"] div[align="center"] { */
+   display: none !important;
+}
+
+td[background="../../../../../pic/v2_bot2.gif"],
+td[background="../../../../../pic/v2_logo2.gif"] {
+   background: none;
+}
+
+img[src="../../../../../pic/v2_title.gif"] {
+   /* border: 1px solid red; */
+   translate: 23px;
+}
+
+a[title="Радиотехнические системы (теория электрических цепей, обработка сигналов, микроэлектроника, радиофизика, конструирование аппаратуры, электротехника,..)"] {
+   /* border: 1px solid red; */
+   translate: -23px;
+}
+
+a[title="Радиотехнические системы (теория электрических цепей, обработка сигналов, микроэлектроника, радиофизика, конструирование аппаратуры, электротехника,..)"]:focus-visible {
+	outline: none;
+}
+
+
+tr[valign="top"][height="153"] {
+   height: 32px;
+   position: relative;
+}
+
+tr[valign="top"][height="153"] > br, 
+td[background="../../../../../pic/v2_bot2.gif"] > br {
+   /* height: 32px;/ */
+   display: none;
+}
+/* 
+tr[valign="top"][height="26"] td[bgcolor="#ffffff"] div[align="center"] {
+   position: fixed;
+	z-index: 100;
+	bottom: 0;
+	width: 100vw;
+	background: #d5d5d5;
+	left: 0;
+	display: flex
+   ;
+	justify-content: space-evenly;
+   align-items: center;
+	padding: 12px;
+	border-top: 2px solid #1c1c1c2e;
+} */
+
+table {
+   padding: 0 44px !important;
+   padding: 0 25vw !important;
+   font-size: 18px !important;
+}
+
+@media only screen and (max-width: 1000px) {
+   table {
+      padding: 0 24px !important;
+      /* padding: 0 25vw !important; */
+   }
+}
+
+img[src="pic/000000.jpg"] {
+   width: 50%;
+   border-radius: 12px;
+}
+
+.img {
+   margin: 18px 0 !important;
+}
+
+.img br {
+   display: none;
+}
+
+.img img {
+   margin: 0 auto;
+   margin-bottom: 6px;
+   display: block;
+}
+
+
+
+/* styles */
+body {
+   background: #ffffff;
+   margin-left: 0px;
+   margin-right: 0px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   font-size: 18px !important;
+   font-family: var(--font-family);
+   overflow-x: hidden;
+   padding-top: 10px;
+}
+
+a {
+   text-decoration: none;
+   color: #0000aa;
+}
+a:hover {
+   text-decoration: none;
+   color: #0000ff;
+}
+
+h1 {
+   text-align: center;
+   font: bold 17pt/17pt Arial;
+   margin-left: 10px;
+   margin-right: 10px;
+   color: #1e3a80;
+}
+h2 {
+   text-align: center;
+   font: bold 16pt/16pt Arial;
+   margin-left: 10px;
+   margin-right: 10px;
+   color: #0e2a70;
+}
+h3 {
+   text-align: center;
+   font: bold 15pt/15pt Arial;
+   margin-left: 10px;
+   margin-right: 10px;
+   color: #001a60;
+}
+h4 {
+   text-align: center;
+   font: bold 14pt/14pt Arial;
+   margin-left: 10px;
+   margin-right: 10px;
+   color: #000a10;
+}
+h5 {
+   text-align: center;
+   font: bold 13pt/13pt Arial;
+   margin-left: 10px;
+   margin-right: 10px;
+   color: #00000a;
+}
+h6 {
+   text-align: center;
+   font: bold 12pt/12pt Arial;
+   margin-left: 10px;
+   margin-right: 10px;
+   color: #000005;
+}
+
+p {
+   font: 100% Times New Roman;
+
+   font-size: 18px;
+   font-family: "Times New Roman", sans-serif;
+   font-family: var(--font-family);
+   line-height: 24px;
+
+   text-indent: 20px;
+   text-align: justify;
+   /* margin-left: 10px; */
+   /* margin-right: 10px; */
+}
+ul {
+   text-align: justify;
+   margin-left: 25px;
+   margin-right: 5px;
+   margin: 0;
+   list-style-type: none;
+   padding-left: 0;
+}
+ul ul {
+   padding-left: 36px;
+}
+ol {
+   text-align: justify;
+   margin-left: 25px;
+   margin-right: 5px;
+   margin: 0;
+}
+li {
+   font-size: 18px;
+   font-family: var(--font-family);
+   line-height: 24px;
+   text-align: left;
+}
+pre {
+   text-indent: 0px;
+   text-align: justify;
+   font: 100% Courier New;
+   margin-left: 10px;
+   margin-right: 10px;
+   color: #442222;
+}
+
+div.img {
+   text-align: center;
+   font-style: italic;
+   font: Arial;
+   color: #666655;
+}
+div.img img {
+   max-width: 100%;
+}
+div.copyrights {
+   text-align: center;
+   font: 80% Arial;
+   color: #002369;
+   margin: 20px 0 14px;
+}
+p.author {
+   text-indent: 0px;
+   text-align: none;
+   margin-left: 10px;
+   margin-right: 10px;
+   color: #552222;
+}
+i.comment {
+   font-style: italic;
+   font-size: 80%;
+   color: #555555;
+}
+i.copyright {
+   font-style: italic;
+   font-size: 75%;
+   color: #112233;
+}
+p.ephigr {
+   text-align: right;
+   margin-left: 10px;
+   margin-right: 10px;
+   font-size: 100%;
+}
+
+a.content {
+   text-decoration: none;
+   color: #0000aa;
+}
+a.content:hover {
+   text-decoration: none;
+   color: #0000ff;
+}
+
+a.globallinks {
+   text-decoration: none;
+   color: #2c57ab;
+   font: bold 11pt/19pt Arial;
+   margin-left: 3px;
+   margin-right: 1px;
+   margin-top: 4px;
+   margin-bottom: 4px;
+}
+a.globallinks:hover {
+   text-decoration: none;
+   color: #568fff;
+   font: bold 11pt/19pt Arial;
+   margin-left: 3px;
+   margin-right: 1px;
+   margin-top: 4px;
+   margin-bottom: 4px;
+}
+
+a.globallinksm {
+   text-decoration: none;
+   color: #2c57ab;
+   font: bold 14pt/19pt Arial;
+   margin-left: 3px;
+   margin-right: 1px;
+   margin-top: 4px;
+   margin-bottom: 4px;
+}
+a.globallinksm:hover {
+   text-decoration: none;
+   color: #568fff;
+   font: bold 14pt/19pt Arial;
+   margin-left: 3px;
+   margin-right: 1px;
+   margin-top: 4px;
+   margin-bottom: 4px;
+}
+
+a.adv {
+   text-decoration: none;
+   color: #ffffff;
+   font: 100% Arial;
+}
+a.adv:hover {
+   text-decoration: none;
+   color: #bbbbff;
+   font: 100% Arial;
+}
+
+.recomendCont {
+   margin-left: 1px;
+   margin-right: 1px;
+}
+.recomendCont a {
+   text-decoration: none;
+   color: #ffffff;
+   font: 90% Arial;
+}
+.recomendCont a:hover {
+   text-decoration: none;
+   color: #dddddd;
+   font: 90% Arial;
+}
+
+.recomendContL {
+   margin-left: 1px;
+   margin-right: 1px;
+   font: 83% Arial;
+}
+.recomendContL a {
+   text-decoration: none;
+   color: #0000aa;
+   font: 83% Arial;
+}
+.recomendContL a:hover {
+   text-decoration: none;
+   color: #0000ff;
+   font: 83% Arial;
+}
+
+.recomendContMobile {
+   margin-left: 3px;
+   margin-right: 3px;
+}
+.recomendContMobile a {
+   text-decoration: none;
+   color: #777777;
+   font: 90% Arial;
+}
+.recomendContMobile a:hover {
+   text-decoration: none;
+   color: #555599;
+   font: 90% Arial;
+}
