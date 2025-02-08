@@ -5,6 +5,10 @@
    --font-family: "Arial", serif;
 }
 
+* {
+   box-sizing: border-box;
+}
+
 /* blocker */
 .pop-transformer-form.pop-vertical-form,
 .recomendCont,
@@ -69,10 +73,11 @@ table {
    padding: 0 44px !important;
    padding: 0 25vw !important;
    font-size: 18px !important;
+   padding: 0 !important;
 }
 
 @media only screen and (max-width: 1000px) {
-   table {
+   body {
       padding: 0 24px !important;
       /* padding: 0 25vw !important; */
    }
@@ -110,6 +115,8 @@ body {
    font-family: var(--font-family);
    overflow-x: hidden;
    padding-top: 10px;
+   padding: 10px 25vw 0;
+
 }
 
 a {
